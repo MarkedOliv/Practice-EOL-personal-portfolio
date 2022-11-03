@@ -1,6 +1,7 @@
 import './index.scss';
 import { useRef } from 'react';
 import emailjs from '@emailjs/browser';
+import Gif from '../Gif';
 
 
 const Contact = () => {
@@ -48,6 +49,7 @@ const Contact = () => {
                 </form>
             </div>
         </div>
+        <Gif />
     </div>
     )
 }
