@@ -11,7 +11,7 @@ const About = () => {
                 <p>I am a tidy, patient, resilient programmer who strives to solve problems.</p>
                 <p>I got interested in the world of programming due to family influences, and I'm so happy fot that since now I have skills that I never thought I would and I will continue on this path, striving to improve every day.</p>
             </div>
-            <Photo/>
+                <Photo/>
         </div>
     )
 }

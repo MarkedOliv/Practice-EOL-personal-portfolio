@@ -1,9 +1,10 @@
 import './index.scss';
+import waiting from '../../assets/img/waiting.gif'
 
 const Gif = () => {
     return (
-        <div className='photo-container'>
-            <iframe src="https://giphy.com/embed/Qt1jk5Q49C3h5CrlBe" frameBorder="0" class="giphy-embed" allowFullScreen title='waiting'></iframe>
+        <div className='gif-container'>
+            <iframe src={waiting} frameBorder="0" className="giphy-embed" allowFullScreen title='waiting'></iframe>
         </div>
     )
 }

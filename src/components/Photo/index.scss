@@ -6,3 +6,10 @@
     width: 400px;
     z-index: 0;
 }
+
+@media screen and (max-width: 1200px) {
+    .photo {
+        height: 300px;
+        width: 280px;
+    }
+}

@@ -79,6 +79,11 @@
                 content: 'CONTACT';
             }
         }
+        a.portfolio-link {
+            &:after {
+                content: 'WORKS';
+            }
+        }
         a.active {
             svg {
                 color: #F9F871;
@@ -108,4 +113,61 @@
             }
         }
     }
+}
+
+.hamburger-icon, .close-icon {
+    display: none;
+}
+
+@media screen and (max-width: 1200px) {
+.nav-bar { 
+    background: transparent;
+    height: auto;
+    min-height: auto;
+    position: initial;
+
+    ul, nav {
+        display: none;
+    }
+    nav {
+        background: #181818;
+        height: 100%;
+        left: 0;
+        margin: 0;
+        position: fixed;
+        top: 0;
+        width: 100%;
+        z-index: 2;
+        
+        &.mobile-show {
+            display: block;
+        }
+        
+    a {
+        align-items: center;
+        display: flex;
+        justify-content: center;
+    }
+
+    a:after {
+        margin-left: 10PX;
+        opacity: 1;
+        position: initial;
+        width: auto;
+    }
+
+    a svg {
+        opacity: 1 !important;
+    }
+    }
+
+    .hamburger-icon,
+    .close-icon {
+        cursor: pointer;
+        display: block;
+        position: absolute;
+        right: 15px;
+        top: 15px;
+    }
+}
 }

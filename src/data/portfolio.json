@@ -1,0 +1,16 @@
+{
+    "portfolio": [
+        {
+            "cover": "https://i.ibb.co/pbXXdxV/PI-Doggos.jpg",
+            "title": "Doggos",
+            "description": "Full Stack - Solo Project - NodeJS, Express, Sequelize, PostgreSQL. Reactjs, Redux, CSS, Git.",
+            "url": "https://pi-doggos.vercel.app/"
+        },
+        {
+            "cover": "https://i.ibb.co/gmkR4df/PF-Henry-Commerce.png",
+            "title": "HenryCommerce",
+            "description": "Back End - Team Project - NodeJS, Express, MongoDB, Mongoose, MongoDB Atlas, Firebase, JWT.",
+            "url": "https://henry-commerce.netlify.app/"
+        }
+    ]
+}

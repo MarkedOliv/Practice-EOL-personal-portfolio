@@ -1,8 +1,8 @@
-.photo-container { 
+.photo-container {
     height: 609px;
     right: 15%;
     position: absolute;
-    top: 0;
+    top: 8%;
     width: 400px;
     z-index: 0;
 }
@@ -10,6 +10,12 @@
 .giphy-embed {
     border: 1px solid #F9F871;
     border-radius: 20px;
-    height: 500px;
-    width: 500px; 
+    height: 480px;
+    width: 480px; 
+}
+
+@media screen and (max-width: 1200px) {
+    .giphy-embed {
+        display: none;
+    }
 }
