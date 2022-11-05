@@ -1,11 +1,13 @@
 import './index.scss';
 import { useRef } from 'react';
+import { useNavigate } from 'react-router-dom';
 import emailjs from '@emailjs/browser';
 import Gif from '../Gif';
 
 
 const Contact = () => {
     const refForm = useRef();
+    const navigate = useNavigate();
     const sendEmail = (e) => {
         e.preventDefault()
         emailjs
@@ -17,7 +19,7 @@ const Contact = () => {
             )
             .then(() => {
                 alert('Message succesfully sent!')
-                window.location.reload(false)
+                navigate('/')
             }, () => {
                 alert('Failed to send the message, try again later')
             })
