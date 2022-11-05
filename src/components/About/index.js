@@ -1,4 +1,3 @@
-import './index.scss';
 import Photo from '../Photo';
 
 const About = () => {
